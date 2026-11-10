@@ -166,6 +166,7 @@ vim.lsp.config['rust_analyzer'] = {
 vim.lsp.config['clangd'] = {
     cmd = {
         'clangd',
+        '--fallback-style=google',
         -- '--background-index',
         -- '--clang-tidy',
         -- '--header-insertion=never',
